@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "The Future of Web Development",
+    "coverImg": "https://i.ibb.co/0CX1xkS/Siam-8.jpg",
+    "author": "John Doe",
+    "author_img": "https://i.ibb.co/Hd7Lyxj/Siam-2.jpg",
+    "posted_date": "2024-03-14",
+    "reading_time": 10,
+    "hashtags": ["technology", "coding", "webdev"]
+  },
+  {
+    "id": 2,
+    "title": "Achieving Optimal Health Through Nutrition and Fitness",
+    "coverImg": "https://i.ibb.co/Hd7Lyxj/Siam-2.jpg",
+    "author": "Jane Smith",
+    "author_img": "https://i.ibb.co/Hd7Lyxj/Siam-2.jpg",
+    "posted_date": "2024-03-12",
+    "reading_time": 8,
+    "hashtags": ["health", "fitness", "nutrition"]
+  },
+  {
+    "id": 3,
+    "title": "Exploring the World: Travel Adventures",
+    "coverImg": "https://i.ibb.co/C742CTy/Siam-5.jpg",
+    "author": "Alex Johnson",
+    "author_img": "https://i.ibb.co/Hd7Lyxj/Siam-2.jpg",
+    "posted_date": "2024-03-10",
+    "reading_time": 15,
+    "hashtags": ["travel", "adventure", "explore"]
+  },
+  {
+    "id": 4,
+    "title": "Unleashing Creativity Through Art and Design",
+    "coverImg": "https://i.ibb.co/Hd7Lyxj/Siam-2.jpg",
+    "author": "Emily Brown",
+    "author_img": "https://i.ibb.co/Hd7Lyxj/Siam-2.jpg",
+    "posted_date": "2024-03-08",
+    "reading_time": 12,
+    "hashtags": ["art", "creativity", "design"]
+  },
+  {
+    "id": 5,
+    "title": "Innovations in Science and Research",
+    "coverImg": "https://i.ibb.co/C742CTy/Siam-5.jpg",
+    "author": "Michael Wilson",
+    "author_img": "https://i.ibb.co/Hd7Lyxj/Siam-2.jpg",
+    "posted_date": "2024-03-06",
+    "reading_time": 7,
+    "hashtags": ["science", "research", "innovation"]
+  }
+]
