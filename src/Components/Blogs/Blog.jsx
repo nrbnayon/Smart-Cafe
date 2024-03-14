@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { BsFillBookmarkHeartFill } from "react-icons/bs";
 
-const Blog = ({ blog, handleToBookmarks }) => {
+const Blog = ({ blog, handleToBookmarks, handleMarkAsRead }) => {
   const {
     coverImg,
     author,
@@ -47,7 +47,12 @@ const Blog = ({ blog, handleToBookmarks }) => {
               </span>
             ))}
           </p>
-          <button className="btn btn-ghost underline">Mark As Read</button>
+          <button
+            onClick={() => handleMarkAsRead(reading_time)}
+            className="btn btn-ghost underline"
+          >
+            Mark As Read
+          </button>
         </div>
       </div>
     </div>
@@ -56,5 +61,6 @@ const Blog = ({ blog, handleToBookmarks }) => {
 Blog.propTypes = {
   blog: PropTypes.object.isRequired,
   handleToBookmarks: PropTypes.func.isRequired,
+  handleMarkAsRead: PropTypes.func.isRequired,
 };
 export default Blog;
